@@ -15,6 +15,7 @@ chmod u+x run.sh
   dossier "templates".
   Pour rendre le site disponible il faut tour d'abord vérifier que la port 8080 est bien ouvert sur la machine hôte, les 
   utilisateurs auront accès au site via l'addresse IP publique ou privée de la machine.
+  De plus ce serveur grếce au multithreading parallèle est capable de gérer plusieurs clients en même temps.
 > [!warning]
 > le serveur ne prend en compte que les requêtes http 'GET'
 
@@ -37,6 +38,12 @@ chmod u+x run.sh
  Pour des raisons de test le serveur possède seulement une page home accésible au lien :
  
  [http://127.0.0.1:8080/home.html](http://27.0.0.1:8080/home.html)
+
+ Le serveur permet aussi d'avoir un suivi en temps réel des requêtes que les multiples clients envoient :
+ <p align="center">
+  <img src="screenshots/Screenshot_20231228_173818.png" width="170" >
+
+</p>
  
  ## Limitations
   + Le serveur ne gère que les requêtes 'GET'.

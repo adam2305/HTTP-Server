@@ -1,6 +1,13 @@
 ## HTTP-Server 1.0
 
-#
+# Table des matières
+
+- [Démarrage](#démarrage)
+- [Présentation](#présentation)
+- [Structure](#structure)
+- [Fonctionnalités](#fonctionnalités)
+- [Limitations](#limitations)
+- [License](#license)
 
 ### Démarrage
 Pour démarrer le serveur HTTP:
@@ -41,7 +48,7 @@ chmod u+x run.sh
 
  Le serveur permet aussi d'avoir un suivi en temps réel des requêtes que les multiples clients envoient :
  <p align="center">
-  <img src="screenshots/1.png" width="300" >
+  <img src="screenshots/1.png" width="450" >
 
 </p>
  

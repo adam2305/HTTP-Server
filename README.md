@@ -34,8 +34,9 @@ chmod u+x run.sh
  ## Fonctionnalités
  Une fois le serveur démarré il permettra d'accéder à l'ensembles des fichiers de type HTML ou image qui seront placés dans le dossier
  "temaplates". 
- Pour des raisons de test le serveur possède seulement une page home accésible au lien
- [127.0.0.1:8080/home.html]
+ Pour des raisons de test le serveur possède seulement une page home accésible au lien :
+ 
+ [127.0.0.1:8080/home.html](127.0.0.1:8080/home.html)
  
  ## Limitations
   + Le serveur ne gère que les requêtes 'GET'.

@@ -41,7 +41,7 @@ chmod u+x run.sh
 
  Le serveur permet aussi d'avoir un suivi en temps réel des requêtes que les multiples clients envoient :
  <p align="center">
-  <img src="screenshots/1.png" width="170" >
+  <img src="screenshots/1.png" width="300" >
 
 </p>
  

@@ -31,6 +31,12 @@ chmod u+x run.sh
   + **http_handler.c** : fournut les fonctions permettant de décoder une requête http mais aussi d'en générer une de façon dynamique et 
   		      automatisée selon la requête du client.
 
+ ## Fonctionnalités
+ Une fois le serveur démarré il permettra d'accéder à l'ensembles des fichiers de type HTML ou image qui seront placés dans le dossier
+ "temaplates". 
+ Pour des raisons de test le serveur possède seulement une page home accésible au lien
+ [127.0.0.1:8080/home.html]
+ 
  ## Limitations
   + Le serveur ne gère que les requêtes 'GET'.
   + Les liens ne sont pas créer de façon intuitive et dynamique: il faudra écrire exactement le nom du fichier 
@@ -38,3 +44,4 @@ chmod u+x run.sh
   + Le serveur n'est pas capable d'aller chercher un fichier HTML dans un dossier, il fauut tout mettre dans templates.
 
 ## Licence
+[MIT License](LICENSE)
